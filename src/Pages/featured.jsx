@@ -97,7 +97,7 @@ export function Featured() {
     <>
       <Toaster position="top-center" reverseOrder={false} />
       <div className="bg-white md:pt-10 pt-5 font-dm">
-        <div className=" flex text-yellow-700 justify-between w-full md:px-20 px-10 py-5">
+        <div className=" flex text-[#004F44] justify-between w-full md:px-20 px-10 py-5">
           <h1 className="md:text-4xl text-2xl">Featured</h1>
           <h6 onClick={gotoProducts} className="cursor-pointer">
             View all
@@ -144,7 +144,7 @@ export function Featured() {
                           className="object-cover h-full w-full rounded"
                         />
                       </div>
-                      <div className="data mt-4 font-dm flex justify-between text-yellow-700">
+                      <div className="data mt-4 font-dm flex justify-between text-[#004F44]">
                         <h1 className="sm:text-xl text-sm">{product.name}</h1>
                         <h4 className="sm:text-lg text-sm font-semibold text-right">QAR {product.price}</h4>
                       </div>

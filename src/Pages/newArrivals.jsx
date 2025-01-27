@@ -45,7 +45,7 @@ export function NewArrivals() {
 
     return (
         <div className="bg-white md:py-20 py-10 font-dm">
-            <div className="text-yellow-700 flex justify-between w-full md:px-20 px-5 py-0">
+            <div className="text-[#004F44] flex justify-between w-full md:px-20 px-5 py-0">
                 <h1 className="md:text-4xl text-2xl">Premiume Bakes</h1>
                 <h6>View all</h6>
             </div>

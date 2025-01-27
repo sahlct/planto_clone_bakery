@@ -49,7 +49,7 @@ export function Footer() {
 
   return (
     <>
-      <footer className="bg-yellow-500 md:py-16 py-8 px-5 md:px-10 text-black font-dm">
+      <footer className="bg-[#004F44] md:py-16 py-8 px-5 md:px-10 text-white font-dm">
         <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
           {/* Logo Section */}
           <div className="flex justify-center md:justify-start">
@@ -61,16 +61,16 @@ export function Footer() {
             <h3 className="font-light mb-4">About Centrose</h3>
             <ul className="space-y-2">
               <li>
-                <p className="hover:underline text-gray-900" onClick={ToHome}>
+                <p className="hover:underline text-gray-300" onClick={ToHome}>
                   Home
                 </p>
               </li>
               <li>
-                <p className="hover:underline text-gray-900">Search</p>
+                <p className="hover:underline text-gray-300">Search</p>
               </li>
               <li>
                 <p
-                  className="hover:underline text-gray-900 cursor-pointer"
+                  className="hover:underline text-gray-300 cursor-pointer"
                   onClick={toggleModal}
                 >
                   FAQs
@@ -84,15 +84,15 @@ export function Footer() {
             <h3 className="font-light mb-4">Product</h3>
             <ul className="space-y-2">
               <li>
-                <p className="hover:underline text-gray-900" onClick={ToProduct}>
+                <p className="hover:underline text-gray-300" onClick={ToProduct}>
                   Products
                 </p>
               </li>
               <li>
-                <p className="hover:underline text-gray-900">Featured</p>
+                <p className="hover:underline text-gray-300">Featured</p>
               </li>
               <li>
-                <p className="hover:underline text-gray-900" onClick={ToOrder}>
+                <p className="hover:underline text-gray-300" onClick={ToOrder}>
                   Order
                 </p>
               </li>
@@ -102,7 +102,7 @@ export function Footer() {
           {/* Subscription Section */}
           <div className="font-light">
             <h3 className="font-light mb-4">Contact to Us ?</h3>
-            <p className="mb-4 text-gray-900">
+            <p className="mb-4 text-gray-300">
               Contact our team members; we are ready to help you!
             </p>
             <div className="flex md:flex-col lg:flex-row">

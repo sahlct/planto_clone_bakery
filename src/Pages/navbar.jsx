@@ -26,7 +26,7 @@ export function Navbar() {
     return (
         <>
             {/* Main Navbar */}
-            <div className='h-20 fixed top-0 w-full z-50 text-black bg-yellow-500 flex justify-between items-center px-4 md:px-14 font-dm'>
+            <div className='h-20 fixed top-0 w-full z-50 text-white bg-[#004F44]  flex justify-between items-center px-4 md:px-14 font-dm'>
                 {/* Mobile Menu Button */}
                 <button className='md:hidden' onClick={toggleSidebar}>
                     <Menu size={24} />

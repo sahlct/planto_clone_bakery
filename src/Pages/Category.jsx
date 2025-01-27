@@ -40,7 +40,7 @@ export default function Category() {
         {categories.map((category) => (
           <button
             key={category._id}
-            className="relative flex-shrink-0 bg-gray-200 text-yellow-700  rounded-lg hover:bg-gray-300 transition duration-200
+            className="relative flex-shrink-0 bg-gray-200 text-[#004F44]  rounded-lg hover:bg-gray-300 transition duration-200
             text-sm md:text-lg font-light md:px-8 px-4 py-1 w-auto flex flex-col items-center justify-center"
           >
             {/* Decorative Circle */}

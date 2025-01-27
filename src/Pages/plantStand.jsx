@@ -58,7 +58,7 @@ export function PlantStands() {
     <>
       <div className="bg-[#f3fff3] md:py-20 py-10 font-dm">
         {/* Header */}
-        <div className="text-yellow-700 flex justify-between w-full md:px-20 px-5 py-0">
+        <div className="text-[#004F44] flex justify-between w-full md:px-20 px-5 py-0">
           <h1 className="md:text-3xl text-2xl">Favourite Cakes</h1>
           <h6>View all</h6>
         </div>
@@ -104,7 +104,7 @@ export function PlantStands() {
                     className="object-cover h-full w-full rounded"
                   />
                 </div>
-                <div className="mt-4 font-dm text-yellow-700">
+                <div className="mt-4 font-dm text-[#004F44]">
                   <h1 className="text-xl">{stand.name}</h1>
                 </div>
               </div>
